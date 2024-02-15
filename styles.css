@@ -1,0 +1,37 @@
+:root {
+  --prmry-color: #CDFADB;
+  --sndry-color: #F6FDC3;
+  --trnry-color: #FFCF96;
+  --font-color: #FFCF96;
+}
+
+body {
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--prmry-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sndry-color);
+  width: 600px;
+  height: 600px;
+  border: 1px solid var(--font-color);
+}
+
+.drinks,
+.choices {
+  background-color: var(--trnry-color);
+  min-width: fit-content;
+  min-height: fit-content;
+  margin: 18px;
+}
+
+
+
+
+
